@@ -1,0 +1,33 @@
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 3rem;
+}
+
+hr {
+  height: 2px;
+  background: black;
+}
+
+.movies-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.movie-card-image {
+  height: 600px;
+}
